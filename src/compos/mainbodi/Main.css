@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=Kanit&family=PT+Sans:ital@0;1&family=Poppins:wght@200;300;400&display=swap');
+
+.main{
+    background:url('../../imags/hi.jpg');
+    width:100vw;
+    overflow:hidden;
+    height:100vh;
+    display:flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction:column;
+}
+h1,p{
+    padding-top:0;
+    margin-top:0;
+    color:rgba(255, 255, 255, 0.767);
+}
+h1{
+    font-family:'PT Sans';
+    font-size:7rem;
+   
+}
+.Name-1{
+    margin-bottom:2rem;
+
+}
+
+p{
+    color:rgb(190, 167, 65);
+    font-size:1.3rem;
+}
+
+.main-1{
+    margin-top: 12rem;
+    width: 100%;
+    height: 43%;
+    width:100%;
+    display :flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .boom{
+    cursor:pointer;
+   
+    color:rgb(156, 156, 156);
+  }
+
+  .logos{
+    
+    width:50%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
